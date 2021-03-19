@@ -1,0 +1,539 @@
+@media screen and (max-width: 1199px) {
+	header {
+		padding-left: 24px;
+	}
+	.offer_body {
+		flex-direction: row-reverse;
+		justify-content: flex-end;
+		margin: 60px 0 99px 0;
+	}
+	.offer_img {
+	    margin: 0px 100px 0 0;
+	}
+	header .button {
+		margin: 0 0 0 37px;
+	}
+	.offer_info {
+		margin: 50px 0 0 0;
+	}
+	.offer_img img:first-of-type {
+	    width: 256px;
+  		height: 330px;
+	}
+	.offer_img img:last-of-type {
+		width: 194px;
+  		height: 195px;
+	}
+	.reason_text div {
+		float: left;
+	}
+	.reason_first {
+	    width: 200px;
+	}
+	.reason_text div:first-of-type {
+		margin-right: 20px;
+	}
+	.reason_second {
+	    width: 152px;
+	}
+	.reason_third {
+	    width: 150px;
+	    margin-left: 10px;
+	}
+	#reason {
+		padding-top: 57px;
+	}
+	.reason_info {
+	    margin: 50px 0 25px 0;
+	}
+	.reason_item {
+		margin-top: -50px;
+	}
+	.reason_item:first {
+		margin-top: -50px;
+	}
+	#contents h2 {
+	    margin: 72px 0 60px 0;
+	}
+	.program_item {
+		float: none;
+	}
+	.program-one {
+	    width: unset;
+	}
+	.program_item:not(:last-child) {
+	    margin-right: 0;
+	    margin-bottom: 35px;
+	}
+	.program-one .program_item:first-child .program_item-name div:last-of-type,
+	.program-two .program_item:first-child .program_item-name div:last-of-type,
+	.program-one .program_item:nth-child(2) .program_item-name div:last-of-type,
+	.program-three .program_item:nth-child(2) .program_item-name div:last-of-type,
+	.program-two .program_item:nth-child(2) .program_item-name div:last-of-type,
+	.program-one .program_item:nth-child(3) .program_item-name div:last-of-type,
+	.program-three .program_item:nth-child(3) .program_item-name div:last-of-type,
+	.program-one .program_item:last-child .program_item-name div:last-of-type,
+	.program-two .program_item:last-child .program_item-name div:last-of-type,
+	.program-three .program_item:first-child .program_item-name div:last-of-type,
+	.program-three .program_item:last-child .program_item-name div:last-of-type,
+	.program-one .program_item:nth-child(3) .program_item-content .content:last-child div:last-of-type,
+	.program-two .program_item:nth-child(2) .program_item-content .content:last-child div:last-of-type {
+	    width: unset;
+	}
+	.contents_day:not(:last-child) {
+	    margin-bottom: 65px;
+	}
+	#contents .button {	    
+	    margin: 45px 0 83px 149px;
+	}
+	#results {
+		padding: 70px 0 70px 0;
+	}
+	#results h2 {
+		margin-bottom: 48px;
+	}
+	.results_item {
+		display: flex;
+		align-items: center;
+		margin-bottom: 40px;
+	}
+	.results_item div:first-of-type {
+		margin: 0px 0 0px 0;
+		width: 358px;
+	}
+	.results_item div:last-of-type {
+		padding-left: 22px;
+	}
+	.client div:last-of-type {
+		width: 526px;
+	}
+	.first-client, .second-client {
+		margin-bottom: 39px;
+	}
+	.presenter_quote {
+		width: 600px;
+	}
+	.presenter_achievements {
+		flex-direction: column;
+	}
+	.achievement:not(:last-child) {
+	    margin-right: 0px;
+	}
+	.achievement:nth-child(2) {
+		margin-left: -80px;
+	}
+	.achievement:nth-child(2) .achievement_text {
+		width: 270px;
+	}
+	.achievement:nth-child(3) .achievement_text {
+		width: 350px;
+	}
+	.value_info {
+	    margin: 117px 0 0 34px;
+	}
+	.value_info div:first-of-type {
+		width: 400px;
+		padding: 5px 0 5px 150px;
+		margin: 0 0 0 -150px;
+	}
+	.value_info div:last-of-type {
+		width: unset;
+	}
+	.remainder {
+	    margin: 130px 0 0 35px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	/*header {
+		padding-left: 24px;
+	}*/
+	.header {
+		margin: 30px 0 70px 0;
+	}
+	.offer_list {
+		width: 300px;
+	}
+	.offer_item {
+		background-position-y: 5px;
+		margin-bottom: 13px;
+		line-height: 22px;
+	}
+	.offer_img {
+	    margin: 0px 30px 0 0;
+	}
+	#results {
+	    padding: 70px 0 40px 0;
+	}
+	#bonuses {    
+	    padding: 70px 0 75px 0;
+	}
+	#bonuses h2 {
+	    margin-bottom: 15px;
+	}
+	.bonuses_text div:first-of-type {
+		width: 350px;
+	}
+	.first-bonus {
+		margin-bottom: 20px;
+	}
+	.guarantee {
+		margin-top: 37px;
+		padding: 0 15px 0 15px;
+	}
+	#clients {
+		padding: 70px 0 80px 0;
+	}
+	.clients_heading div {
+		margin: 15px 0 0 0;
+	}
+	.clients_list {
+	    margin: 45px 0 0 0;
+	}
+	#presenter {
+		padding: 70px 0 70px 0;
+	}
+	.presenter_quote {
+	    width: 370px;
+	    margin: 43px 0 50px 64px;
+	}
+	.value_info {
+	    margin: 90px 0 0 34px;
+	} 
+	.value_summa {
+		margin-top: -30px;
+		margin-left: -40px;
+	}
+	.value_content {
+		margin-bottom: 30px;
+	}
+	#footer {
+		padding: 70px 0 50px 0;
+		text-align: center;
+	}
+	.registration {
+	    margin: 46px 0 0 0;
+	}
+	.registration_info div:last-of-type {
+		margin: 22px auto 38px auto;
+	}
+	.registration_info div:first-of-type {
+		margin: 0 0 0 50px;
+	}
+	.registration_form {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.remainder {
+	    margin: 20px auto 0 auto;	    
+	    width: 420px;
+	}
+	.remainder div:first-child {
+		text-align: left;
+	}
+	.remainder div:last-of-type, .remainder div:nth-of-type(2) {	    
+	    margin-left: 0px;
+	}
+	.footer_legal div:not(:last-child) {
+	    margin-right: 60px;
+	}
+
+	.program-three .program_item:first-child {
+	    margin-right: 0px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	#presenter {
+		text-align: center;
+	}
+	.presenter_quote {
+	    width: 100%;
+	    margin: 43px 0 20px 0px;
+	}
+	.achievement {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.achievement_text {
+		margin: 0px 0 0 0;
+	}
+	.achievement_number {
+		margin: 0 0px 0 0;
+	}
+	.achievement:nth-child(2) {
+	    margin-left: 0px;
+	}
+	.footer_legal div:not(:last-child) {
+	    margin-right: 0px;
+	    margin-bottom: 30px;
+	}
+	.footer_legal {
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 723px) {
+	header {
+	    padding-left: 0px;
+	}
+	.header {
+		flex-direction: column;
+		text-align: center;
+		margin: 30px 0 45px 0;
+	}
+	.event-info {
+		margin-left: 0px;
+		flex-direction: column;
+		margin-top: 17px;
+	}
+	.event-info div:not(:last-of-type) {
+	    margin-right: 0px;
+	    margin-bottom: 4px;
+	}
+	.offer_head {
+		text-align: center;
+	}
+	.offer_text {
+	    margin: 5px 0 38px 0;
+	}
+	.offer_text div:first-of-type {
+		line-height: 25px;
+	}
+	.offer_text div:last-of-type {
+		width: 100%;
+		padding-left: 0;
+		margin: 0;
+	}
+	.offer_body {
+	    flex-direction: column;	    
+	    align-items: center;
+	} 
+	.offer_info {
+	    margin: 0px 0 0 0;
+	}
+	.offer_img {
+	    margin: 68px 0px 0 0;
+	}
+	.offer_img img:first-of-type {
+	    width: 199px;
+		height: 256px;
+	}
+	.offer_img img:last-of-type {
+	    width: 151px;
+		height: 151px;
+	}
+	#reason {
+		text-align: center;
+	}
+	.reason_info {
+	    margin: 50px 0 10px 0;
+	}
+	.reason_item {
+		flex-direction: column;
+		margin-bottom: 43px;
+	}
+	.reason_number {
+		margin-right: 0px;
+		font-size: 130px;
+	}
+	.reason_text {
+	    margin-top: -28px;
+	}
+	.reason_text div {
+	    float: none;
+	}
+	.reason_text div:first-of-type {
+	    margin: 0 auto;
+	    padding-left: 0px;
+	}
+	.reason_text div:last-of-type {
+		margin: 5px auto 0 auto;
+	}
+	#contents h2 {
+	    margin: 52px 0 60px 0;
+	    text-align: center;
+	}
+	.day-info div:first-of-type {
+		margin: -12px 0px 0 0;
+	}
+	.day-info div {
+		float: none;
+	}
+	.day-info {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.day-info div:last-of-type {
+		margin-top: 115px;
+	}
+	.contents_day {
+		display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	}
+	.program {
+	    margin: 40px 0 0 0;
+	    
+	}
+	.program_item:not(:last-child) {	    
+	    margin-bottom: 20px;
+	}
+	.program-one .program_item:nth-child(2) .program_item-name div:last-of-type {
+		width: 240px;
+	}	
+	.program-one .program_item:last-child .program_item-name div:last-of-type {
+		width: 200px;
+	}	
+	.program-three .program_item:nth-child(2) .program_item-name div:last-of-type,
+	.program-three .program_item:last-child .program_item-name div:last-of-type,
+	.program-two .program_item:last-child .program_item-name div:last-of-type {
+		width: 220px;
+	}
+	.program-three .program_item:first-child .program_item-name div:last-of-type {
+		width: 260px;
+	}
+	#contents .button {
+	    margin: 45px auto 60px auto;
+	}
+	#results {
+	    padding: 55px 0 57px 0;
+	}
+	#results h2 {    
+	    text-align: center;
+	}
+	.results_item {
+		flex-direction: column;
+	}
+	.results_item div:first-of-type {	  
+	    width: 320px;
+	    background-position-x: 13px;
+	}
+	.first-result div:first-of-type, .second-result div:first-of-type, .third-result div:first-of-type {
+		padding-left: 70px;
+	}	
+	.results_item div:last-of-type {
+	    padding-left: 45px;
+	    margin-top: 5px;
+	}
+	.third-result div:last-of-type {
+		padding-left: 55px;
+	}
+	.third-result {
+		margin-bottom: 0;
+	}
+	#bonuses {
+	    padding: 50px 0 65px 0;
+	} 
+	#bonuses h2 {
+		text-align: center;
+	}
+	.bonuses_text {
+	    padding: 0 0px 0 0px;	   
+	}
+	.bonuses_text div:first-of-type {
+	    width: 320px;
+	    margin: 0 auto 7px auto;
+	    text-align: center;
+	}
+	.bonuses_text div:last-of-type {
+		text-align: center;
+	}
+	.bonuses_value {
+		justify-content: center;
+	}
+	.guarantee {
+		text-align: center;
+	}
+	#clients {
+	    padding: 70px 0 60px 0;
+	}
+	.clients_heading {
+		text-align: center;
+	}
+	.clients_heading div {
+		width: auto;
+	}
+	.client {	    
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	    background-position-x: center;
+	}
+	.client div:last-of-type {
+	    width: auto;
+	    text-align: center;
+	}
+	.client div:first-of-type {
+		margin: 0 0 0 0px;
+	}
+	.value_content {
+		flex-direction: column;
+	}
+	.value_summa {
+		margin-left: 0px;
+		text-align: center;
+		font-size: 240px;
+	}
+	.value_info {
+	    margin: -50px 0 0 0px;
+	    text-align: center;
+	}
+	.value_info div:first-of-type {
+	    width: 264px;
+	    padding: 5px 0 5px 0px;
+	    margin: 0 auto;
+	}
+	.value_info div:nth-of-type(2) {
+		margin: 22px 0 12px 0;
+	}
+	.value_content {
+	    margin-bottom: 58px;
+	}
+	.registration_info div:first-of-type {
+		margin: 0 0 0 0px;
+		width: auto;
+		height: auto;
+		padding: 7px 0 7px 0px;
+	}
+	.registration_info div:last-of-type {
+		width: auto;
+	}
+	.remainder {
+		width: 235px;
+	}
+	.remainder div:first-of-type {
+		font-size: 200px;
+		background: url(../img/number.png) no-repeat 170px 147px;
+		background-size: 25% 25%;
+	}
+	.footer_legal {
+		margin: 75px 0 0 0;
+	}
+	.box-modal {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 440px) {
+	.registration_form input {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	.bonuses_text div:first-of-type {
+		width: auto;
+	}
+}
+
+
+
+
+
+
+
+
